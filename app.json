@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "sparta-myhoneytip-LEE",
+    "slug": "sparta-myhoneytip-LEE",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.4",
+      "bundleIdentifier": "com.myhoneytip.LEEhyokyun",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2521868996473895~2026249539"
+      }
+    },
+    "android": {
+          "package": "com.myhoneytip.LEEhyokyun",
+          "versionCode": 5,
+          "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
+          "config": {
+            "googleMobileAdsAppId": "ca-app-pub-2521868996473895~5801843018"
+          }
+    }
+  }
+}
