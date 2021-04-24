@@ -21,7 +21,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "buildNumber": "1.0.4",
+      "buildNumber": "1.0.0",
       "bundleIdentifier": "com.myhoneytip.LEEhyokyun",
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-2521868996473895~2026249539"
@@ -29,11 +29,12 @@
     },
     "android": {
           "package": "com.myhoneytip.LEEhyokyun",
-          "versionCode": 5,
+          "versionCode": 1,
           "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"],
           "config": {
             "googleMobileAdsAppId": "ca-app-pub-2521868996473895~5801843018"
-          }
+          },
+    "permissions" : ["CAMERA", "READ_EXTERNAL_STORAGE"]
     }
   }
 }
